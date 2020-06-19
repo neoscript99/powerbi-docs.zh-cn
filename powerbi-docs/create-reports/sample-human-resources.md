@@ -1,22 +1,5 @@
----
-title: 人力资源示例：参观
-description: Power BI 的人力资源示例：参观
-author: maggiesMSFT
-ms.reviewer: amac
-ms.service: powerbi
-ms.subservice: powerbi-desktop
-ms.topic: conceptual
-ms.date: 07/05/2019
-ms.author: maggies
-LocalizationGroup: Samples
-ms.openlocfilehash: 0b663e9a43235b98907d496c2a6ad881ccc54edf
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349715"
----
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Power BI 的人力资源示例：参观
+
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>人力资源示例：参观
 
 人力资源示例内容包中有面向人力资源部门的仪表板、报表和数据集。 在此示例中，人力资源部门跨不同公司使用相同的报表模型，即使公司所处的行业或规模不同，也不例外。 此示例研究新员工数、在职员工数和离职员工数。 它力求发掘雇佣策略中的任何趋势。 我们的主要目标是要了解：
 
@@ -25,43 +8,6 @@ ms.locfileid: "83349715"
 * 自愿离职趋势
 
 ![人力资源示例仪表板](media/sample-human-resources/hr1.png)
-
-此示例是一系列示例的一部分，展示了如何将 Power BI 与面向业务的数据、报表和仪表板结合使用。 它是使用 [obviEnce](http://www.obvience.com/) 依据真实数据（已经过匿名处理）进行创建的。 数据可采用以下几种格式：内容包、.pbix Power BI Desktop 文件或 Excel 工作簿。 请参阅[用于 Power BI 的示例](sample-datasets.md)。 
-
-本教程探讨了 Power BI 服务中的“人力资源示例”内容包。 由于报表体验在 Power BI Desktop 和服务中非常相似，因此也可以使用 Power BI Desktop 中的示例 .pbix 文件跟着本教程一起操作。 
-
-不需要 Power BI 许可证即可在 Power BI Desktop 中查看示例。 如果没有 Power BI Pro 许可证，可以将该示例保存到 Power BI 服务中的“我的工作区”。 
-
-## <a name="get-the-sample"></a>获取示例
-
-必须先将示例下载为[内容包](#get-the-content-pack-for-this-sample)、[.pbix 文件](#get-the-pbix-file-for-this-sample)或 [Excel 工作簿](#get-the-excel-workbook-for-this-sample)，然后才能使用它。
-
-### <a name="get-the-content-pack-for-this-sample"></a>获取内容包形式的此示例
-
-1. 打开并登录 Power BI 服务 (app.powerbi.com)，然后打开要在其中保存此示例的工作区。
-
-   如果没有 Power BI Pro 许可证，可以将该示例保存到“我的工作区”。
-
-2. 选择左下角的“获取数据”  。
-   
-   ![选择“获取数据”](media/sample-datasets/power-bi-get-data.png)
-3. 在随即显示的“获取数据”  页上，选择“示例”  。
-   
-4. 依次选择“人力资源示例”  和“连接”  。  
-   
-   ![连接到示例](media/sample-human-resources/pbi_hr_sample_connect.png)
-
-5. 此时，Power BI 导入内容包，然后向当前工作区添加新的仪表板、报表和数据集。
-   
-   ![人力资源示例条目](media/sample-human-resources/hr-sample-entry.png)
-  
-### <a name="get-the-pbix-file-for-this-sample"></a>获取 .pbix 文件形式的此示例
-
-也可以将此人力资源示例下载为 [.pbix 文件](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)，这是专用于 Power BI Desktop 的文件格式。
-
-### <a name="get-the-excel-workbook-for-this-sample"></a>获取 Excel 工作簿形式的此示例
-
-若要查看此示例的数据源，还可以将它下载为 [Excel 工作簿](https://go.microsoft.com/fwlink/?LinkId=529780)。 该工作簿包含你可以查看和修改的 Power View 工作表。 若要查看原始数据，请启用“数据分析”加载项，再依次选择“Power Pivot”>“管理”  。 若要启用 Power View 和 Power Pivot 加载项，请参阅[在 Excel 中浏览 Excel 示例](sample-datasets.md#explore-excel-samples-inside-excel)，以了解详细信息。
 
 ## <a name="new-hires"></a>新员工
 首先来浏览一下新员工。
@@ -85,10 +31,6 @@ ms.locfileid: "83349715"
     还能发现更多见解吗？ 例如，哪个区域的新员工数按性别不均分。 
 
 4. 选择图表中的不同年龄组和性别，了解年龄、性别、区域和种族组之间的关系。
-
-5. 选择顶部导航窗格中的“人力资源示例”，以返回到仪表板  。
-
-   ![返回到仪表板](media/sample-human-resources/power-bi-breadcrumbs.png)
 
 ## <a name="compare-currently-active-and-former-employees"></a>比较当前在职员工数和离职员工数
 让我们来浏览一下当前在职员工和离职员工的数据。
@@ -148,20 +90,3 @@ ms.locfileid: "83349715"
 
 4. 从顶部导航窗格选择仪表板的名称以返回到该仪表板。
 
-## <a name="ask-a-question-in-the-dashboard-qa-box"></a>在仪表板问答框中提问
-在仪表板的[问答问题框](power-bi-tutorial-q-and-a.md)中，可以使用自然语言来询问数据相关问题。 “问答”可以识别你键入的词语并指出可以在数据集的哪个位置找到答案。
-
-1. 选择“问答”问题框。 请注意，在你开始键入前，问答会显示有助于提问的一些建议。
-
-   ![问答框建议](media/sample-human-resources/pbi_hr_sample_qabox.png)
-
-2. 可以选择其中一个建议，也可以输入“显示东部区域去年同期差员工数(按年龄段和性别)”  。  
-
-   ![问答框答案](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
-
-   请注意，大多数女性差员工年龄都在 30 岁以下。
-
-## <a name="next-steps-connect-to-your-data"></a>后续步骤：连接到数据
-可以在此环境中安全操作，因为能够选择不保存更改。 不过，如果确实保存了更改，可随时选择“获取数据”  来获取此示例的新副本。
-
-我们希望本教程已经演示 Power BI 仪表板、问答和报表如何能够帮助深入了解示例数据。 现在轮到你了；立即连接到你自己的数据。 借助 Power BI，可以连接到各种数据源。 若要了解详细信息，请参阅 [Power BI 服务入门](../fundamentals/service-get-started.md)。
