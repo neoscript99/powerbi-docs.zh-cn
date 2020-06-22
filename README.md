@@ -1,3 +1,4 @@
+<i class="fas fa-book-dead" style="color: #4CAF50"></i>
 
 # Contributing
 
